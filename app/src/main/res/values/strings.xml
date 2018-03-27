@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SQLiteJoins</string>
+    <string name="myName">My Name</string>
+    <string name="myAge">My Age</string>
+    <string name="insert">Insert</string>
+    <string name="join">Join</string>
+    <string name="information">Information</string>
+    <string name="myAddress">Address</string>
+    <string name="display">Display</string>
+</resources>

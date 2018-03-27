@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="40dp"
+    android:orientation="vertical"
+    tools:context="example.com.sqlitejoins.MainActivity">
+
+    <Button
+        android:id="@+id/myInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Info" />
+
+    <Button
+        android:id="@+id/myAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Address" />
+
+    <Button
+        android:id="@+id/btn_join"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:text=" Inner Join" />
+
+    <Button
+        android:id="@+id/btn_left_join"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:text=" Left Outer Join" />
+
+    <Button
+        android:id="@+id/btn__right_join"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Right outer Join"
+        android:paddingTop="20dp"
+        android:visibility="gone" />
+
+</LinearLayout>
